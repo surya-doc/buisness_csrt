@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING CART</title>
+    <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d836cf6cf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="shopping_cart.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- STart of nav bar -->
+    <div class="nav_bar">
+        <div class="nav_row nav_child"><i class="fas fa-2x fa-bars"></i></div>
+        <div class="nav_row nav_heading"><p style="font-size: 40px;">Shop <span class="heading_color">Now</span></p></div>
+        <div class="nav_row nav_shop">
+            <span class="nav_icon"><i class="fas fa-2x fa-shopping-cart"></i></span>
+            <div class="cart_items">1</div>
+        </div>
+    </div>
+
+    <!-- End of nav bar -->
+
+    <!-- Make the button -->
+    <header class="button_shop">
+        <div class="headline">
+            <h1 class="title">Furniture Collection</h1>
+            <button class="shopping_button">SHOP</button>
+        </div>
+    </header>
+    <!-- End of the make the button -->
+
+    <!-- Start of the product section -->
+    <section class="products">
+        <div class="product_main_title">
+            products
+        </div>
+        <div class="middle_products">
+            <!-- <article class="single_product">
+                <div class="img_container">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Sofa" class="product">
+                    <button class="add_to_cart" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add-to-cart
+                    </button>
+                </div>
+                <h3 class="product_name">Double sofa</h3>
+                <p class="cost"><span><i class="fas fa-rupee-sign"></i></span> 6800</p>
+            </article> -->
+        </div>
+    </section>
+    <!-- End of the product section -->
+
+    <!-- Start of the cart -->
+    <div class="cart_item_cointainer">
+        <div class="cart">
+            <span class="close_cart"><i class="far fa-window-close"></i></span>
+            <h2 class="cart_heading">Your cart</h2>
+            <div class="cart_content">
+                <div class="cart_item">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Sofa">
+                    <div>
+                        <h4 style="margin: 4px;">Double Sofa</h4>
+                        <h5 style="margin: 4px;"><i class="fas fa-rupee-sign"></i></span> 6800</h5>
+                        <span class="remove_item" style="margin: 4px; color: dimgrey; font-weight: 600; cursor: pointer;">remove</span>
+                    </div>
+                    <div class="count_cointainer">
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="count">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_Footer">
+                <h4 class="cart_total">Your Total: <span><i class="fas fa-rupee-sign"></i></span> 0.0</h4>
+                <button class="clear_cart">CLear Cart</button>
+            </div>  
+        </div>
+    </div>
+    <!-- End of the cart -->
+
+    <script src="shopping_cart.js"></script>
+</body>
+</html>
